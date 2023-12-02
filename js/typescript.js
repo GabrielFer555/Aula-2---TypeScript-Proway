@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const person_1 = require("./classes/person");
+const produto_1 = require("./classes/produto");
+console.log("Hello World");
+const ob1 = new person_1.Person();
+ob1.name = "Marcos";
+ob1.idade = 14;
+console.log(ob1);
+const prod = new produto_1.Produto(1, 'Milho', 1.75);
+console.log(prod);

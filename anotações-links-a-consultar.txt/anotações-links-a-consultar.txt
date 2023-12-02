@@ -1,0 +1,19 @@
+https://www.w3schools.com/typescript/typescript_classes.php
+
+Convenção de Classe = Toda classe começa com letra maiuscula e todo objeto começa com letra minuscula
+
+Visibilidade em typescript
+public - (default) allows access to the class member from anywhere
+private - only allows access to the class member from within the class
+protected - allows access to the class member from itself and any classes that inherit it, which is covered in the inheritance section below
+
+
+significado da palavra this -- valor do atributo
+
+
+Padrão SOLID - criar classes separadas e cada classe com uma função
+
+Interfaces - Serve pra criar uma assinatura dos métodos que serão implementados por uma classe
+
+
+Erros de compilação dentro do arquivo TS não serão exportados para o arquivo JS
