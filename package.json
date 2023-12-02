@@ -5,9 +5,8 @@
   "name": "typescript",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "start":"npx tsc --watch",
+    "start": "npx tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
